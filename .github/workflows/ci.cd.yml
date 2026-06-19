@@ -13,8 +13,9 @@ on:
     paths:
       - 'src/**'
       - '.github/workflows/ci.cd.yml'
-  tags:
-    - 'v*.*.*'
+  push:
+    tags:
+      - 'v*.*.*'
 
 permissions:
   contents: write
