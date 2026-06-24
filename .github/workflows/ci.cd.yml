@@ -177,3 +177,4 @@ jobs:
         run: |
           echo "✅ Release ${{ steps.version.outputs.version }} created successfully"
           echo "🔗 Release URL: ${{ github.server_url }}/${{ github.repository }}/releases/tag/${{ steps.version.outputs.version }}"
+      # release check    
