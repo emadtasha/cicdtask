@@ -90,7 +90,7 @@ jobs:
             -Dsonar.tests=src \
             -Dsonar.test.inclusions=**/*.test.js \
             -Dsonar.host.url=$SONAR_HOST_URL \
-            -Dsonar.login=$SONAR_TOKEN
+            -Dsonar.token=$SONAR_TOKEN
   
   # ==================== SIMULATED DEPLOYMENT ====================
   simulate_deployment:
